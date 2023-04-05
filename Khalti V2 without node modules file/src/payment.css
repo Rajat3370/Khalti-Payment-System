@@ -1,0 +1,48 @@
+/* Button styles */
+button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+button:hover {
+  background-color: #6a5acd;
+}
+
+button:focus {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* Link styles */
+a {
+  font-size: 1.1rem;
+  color: white;
+  background-color: purple;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  outline: none;
+}
+
+a:hover{
+background-color: #6a5acd;
+}
+a:focus {
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+a:active {
+  transform: translateY(1px);
+}
